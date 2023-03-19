@@ -1,0 +1,156 @@
+{
+    "apiVersion": "spyderbat/v1",
+    "items": [
+        {
+            "id": "event_alert:H6YETCDTReA:ZBSr1A:21116:systemctl",
+            "schema": "event_redflag:suspicious_command:1.1.0",
+            "description": "SYSTEM as root ran systemctl with suspicious command /usr/bin/systemctl is-active rsyslog",
+            "ref": "proc:H6YETCDTReA:ZBSr1A:21116",
+            "short_name": "command_systemctl",
+            "class": [
+              "redflag",
+              "proc",
+              "command",
+              "low_severity",
+              "suspicious",
+              "systemctl"
+            ],
+            "severity": "low",
+            "time": 1679076308.9605296,
+            "routing": "customer",
+            "version": 1,
+            "muid": "mach:H6YETCDTReA",
+            "linkback": "https://app.spyderbat.com/app/org/aHuC0hWboJFVrrjwshhB/source/mach:H6YETCDTReA/spyder-console?ids=event_alert%3AH6YETCDTReA%3AZBSr1A%3A21116%3Asystemctl",
+            "mitre_mapping": [
+              {
+                "technique": "T1057",
+                "technique_name": "Process Discovery",
+                "url": "https://attack.mitre.org/techniques/T1057",
+                "created": "2017-05-31T21:30:48.728Z",
+                "modified": "2020-03-26T18:05:53.130Z",
+                "stix": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+                "tactic": "TA0007",
+                "tactic_name": "Discovery",
+                "platform": "Linux"
+              }
+            ],
+            "auid": 4294967295,
+            "name": "systemctl",
+            "args": [
+              "/usr/bin/systemctl",
+              "is-active",
+              "rsyslog"
+            ],
+            "auser": "SYSTEM",
+            "euser": "root",
+            "ancestors": [
+              "keepalived",
+              "keepalived",
+              "systemd"
+            ],
+            "false_positive": false,
+            "uptime": 3371273.654731989
+        },
+        {
+          "id": "event_alert:NV5cruinR-A:ZBSr1A:17374:systemctl",
+          "schema": "event_redflag:suspicious_command:1.1.0",
+          "description": "SYSTEM as root ran systemctl with suspicious command /usr/bin/systemctl is-active nginx",
+          "ref": "proc:NV5cruinR-A:ZBSr1A:17374",
+          "short_name": "command_systemctl",
+          "class": [
+            "redflag",
+            "proc",
+            "command",
+            "low_severity",
+            "suspicious",
+            "systemctl"
+          ],
+          "severity": "low",
+          "time": 1679076316.7231865,
+          "routing": "customer",
+          "version": 1,
+          "muid": "mach:NV5cruinR-A",
+          "linkback": "https://app.spyderbat.com/app/org/aHuC0hWboJFVrrjwshhB/source/mach:NV5cruinR-A/spyder-console?ids=event_alert%3ANV5cruinR-A%3AZBSr1A%3A17374%3Asystemctl",
+          "mitre_mapping": [
+            {
+              "technique": "T1057",
+              "technique_name": "Process Discovery",
+              "url": "https://attack.mitre.org/techniques/T1057",
+              "created": "2017-05-31T21:30:48.728Z",
+              "modified": "2020-03-26T18:05:53.130Z",
+              "stix": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+              "tactic": "TA0007",
+              "tactic_name": "Discovery",
+              "platform": "Linux"
+            }
+          ],
+          "auid": 4294967295,
+          "name": "systemctl",
+          "args": [
+            "/usr/bin/systemctl",
+            "is-active",
+            "nginx"
+          ],
+          "auser": "SYSTEM",
+          "euser": "root",
+          "ancestors": [
+            "keepalived",
+            "keepalived",
+            "systemd"
+          ],
+          "false_positive": false,
+          "uptime": 7054309.31358242
+        },
+        {
+            "id": "event_alert:H6YETCDTReA:ZBSr1A:21118:systemctl",
+            "schema": "event_redflag:suspicious_command:1.1.0",
+            "description": "SYSTEM as root ran systemctl with suspicious command /usr/bin/systemctl is-active nginx",
+            "ref": "proc:H6YETCDTReA:ZBSr1A:21118",
+            "short_name": "command_systemctl",
+            "class": [
+              "redflag",
+              "proc",
+              "command",
+              "low_severity",
+              "suspicious",
+              "systemctl"
+            ],
+            "severity": "low",
+            "time": 1679076308.971993,
+            "routing": "customer",
+            "version": 1,
+            "muid": "mach:H6YETCDTReA",
+            "linkback": "https://app.spyderbat.com/app/org/aHuC0hWboJFVrrjwshhB/source/mach:H6YETCDTReA/spyder-console?ids=event_alert%3AH6YETCDTReA%3AZBSr1A%3A21118%3Asystemctl",
+            "mitre_mapping": [
+              {
+                "technique": "T1057",
+                "technique_name": "Process Discovery",
+                "url": "https://attack.mitre.org/techniques/T1057",
+                "created": "2017-05-31T21:30:48.728Z",
+                "modified": "2020-03-26T18:05:53.130Z",
+                "stix": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+                "tactic": "TA0007",
+                "tactic_name": "Discovery",
+                "platform": "Linux"
+              }
+            ],
+            "auid": 4294967295,
+            "name": "systemctl",
+            "args": [
+              "/usr/bin/systemctl",
+              "is-active",
+              "nginx"
+            ],
+            "auser": "SYSTEM",
+            "euser": "root",
+            "ancestors": [
+              "keepalived",
+              "keepalived",
+              "systemd"
+            ],
+            "false_positive": false,
+            "uptime": 3371273.6661953926
+        }
+    ]
+}
+        

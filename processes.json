@@ -1,0 +1,186 @@
+{
+    "apiVersion": "spyderbat/v1",
+    "items": [
+        {
+            "schema": "model_process::1.2.0",
+            "id": "proc:H6YETCDTReA:ZBSr1A:21116",
+            "version": 1679076312,
+            "description": "Process 21116 updated fingerprint",
+            "cgroup": "systemd:/system.slice/keepalived.service",
+            "time": 1679076309.4477174,
+            "create_time": 1679076308.940547,
+            "valid_from": 1679076308.940547,
+            "muid": "mach:H6YETCDTReA",
+            "pid": 21116,
+            "ppid": 21115,
+            "ppuid": "proc:H6YETCDTReA:Y-E64w:1364",
+            "tpuid": "proc:H6YETCDTReA:ZBSr1A:21115",
+            "suid": "sess:H6YETCDTReA:Y-E6yw:1",
+            "sid": "4294967295",
+            "args": [
+              "/usr/bin/systemctl",
+              "is-active",
+              "rsyslog"
+            ],
+            "cwd": "/",
+            "thread": false,
+            "type": "normal",
+            "interactive": false,
+            "environ": {
+              "KEEPALIVED_OPTIONS": "-D -S 5",
+              "LANG": "en_US.UTF-8",
+              "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin",
+              "PWD": "/",
+              "SHLVL": "1",
+              "_": "/usr/bin/systemctl"
+            },
+            "duration": 0.019982576370239258,
+            "name": "systemctl",
+            "title": "/usr/bin/systemctl is-active rsyslog",
+            "auid": 4294967295,
+            "euid": 0,
+            "egid": 0,
+            "container": null,
+            "auser": "SYSTEM",
+            "euser": "root",
+            "egrp": "root",
+            "status": "closed",
+            "data_is_complete": true,
+            "ancestors": [
+              "keepalived",
+              "keepalived",
+              "systemd"
+            ],
+            "fingerprint_uid": "fprint:linux-service:H6YETCDTReA:keepalived.service:Y_52Vg:8850",
+            "prev_time": 1679076309.4477174,
+            "expire_at": 1679079599.999999,
+            "exit": 0,
+            "exe": "/usr/bin/systemctl",
+            "valid_to": 1679076308.9605296,
+            "traces": [
+              "trace:H6YETCDTReA:AAX3HGr5tCU:21080:suspicious_command"
+            ]
+        },
+        {
+          "schema": "model_process::1.2.0",
+          "id": "proc:NV5cruinR-A:ZBSr1A:17374",
+          "version": 1679076323,
+          "description": "Process 17374 updated fingerprint",
+          "cgroup": "systemd:/system.slice/keepalived.service",
+          "time": 1679076322.1294818,
+          "create_time": 1679076308.2967072,
+          "valid_from": 1679076308.2967072,
+          "muid": "mach:NV5cruinR-A",
+          "pid": 17374,
+          "ppid": 17373,
+          "ppuid": "proc:NV5cruinR-A:Y6k8iw:30798",
+          "tpuid": "proc:NV5cruinR-A:ZBSr1A:17373",
+          "suid": "sess:NV5cruinR-A:Y6kH9w:1",
+          "sid": "4294967295",
+          "args": [
+            "/usr/bin/systemctl",
+            "is-active",
+            "nginx"
+          ],
+          "cwd": "/",
+          "thread": false,
+          "type": "normal",
+          "interactive": false,
+          "environ": {
+            "KEEPALIVED_OPTIONS": "-D -S 5",
+            "LANG": "en_US.UTF-8",
+            "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin",
+            "PWD": "/",
+            "SHLVL": "1",
+            "_": "/usr/bin/systemctl"
+          },
+          "duration": 0.01576709747314453,
+          "name": "systemctl",
+          "title": "/usr/bin/systemctl is-active nginx",
+          "auid": 4294967295,
+          "euid": 0,
+          "egid": 0,
+          "container": null,
+          "auser": "SYSTEM",
+          "euser": "root",
+          "egrp": "root",
+          "status": "closed",
+          "data_is_complete": true,
+          "ancestors": [
+            "keepalived",
+            "keepalived",
+            "systemd"
+          ],
+          "fingerprint_uid": "fprint:linux-service:NV5cruinR-A:keepalived.service:Y_52XA:4081",
+          "prev_time": 1679076322.1294818,
+          "expire_at": 1679079599.999999,
+          "exit": 0,
+          "exe": "/usr/bin/systemctl",
+          "valid_to": 1679076308.3124743,
+          "traces": [
+            "trace:NV5cruinR-A:AAX3HGu7Nkk:17372:suspicious_command"
+          ]
+        },
+        {
+            "schema": "model_process::1.2.0",
+            "id": "proc:H6YETCDTReA:ZBSr1A:21118",
+            "version": 1679076312,
+            "description": "Process 21118 updated fingerprint",
+            "cgroup": "systemd:/system.slice/keepalived.service",
+            "time": 1679076309.4477174,
+            "create_time": 1679076308.9531238,
+            "valid_from": 1679076308.9531238,
+            "muid": "mach:H6YETCDTReA",
+            "pid": 21118,
+            "ppid": 21117,
+            "ppuid": "proc:H6YETCDTReA:Y-E64w:1364",
+            "tpuid": "proc:H6YETCDTReA:ZBSr1A:21117",
+            "suid": "sess:H6YETCDTReA:Y-E6yw:1",
+            "sid": "4294967295",
+            "args": [
+              "/usr/bin/systemctl",
+              "is-active",
+              "nginx"
+            ],
+            "cwd": "/",
+            "thread": false,
+            "type": "normal",
+            "interactive": false,
+            "environ": {
+              "KEEPALIVED_OPTIONS": "-D -S 5",
+              "LANG": "en_US.UTF-8",
+              "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin",
+              "PWD": "/",
+              "SHLVL": "1",
+              "_": "/usr/bin/systemctl"
+            },
+            "duration": 0.01886916160583496,
+            "name": "systemctl",
+            "title": "/usr/bin/systemctl is-active nginx",
+            "auid": 4294967295,
+            "euid": 0,
+            "egid": 0,
+            "container": null,
+            "auser": "SYSTEM",
+            "euser": "root",
+            "egrp": "root",
+            "status": "closed",
+            "data_is_complete": true,
+            "ancestors": [
+              "keepalived",
+              "keepalived",
+              "systemd"
+            ],
+            "fingerprint_uid": "fprint:linux-service:H6YETCDTReA:keepalived.service:Y_52Vg:8850",
+            "prev_time": 1679076309.4477174,
+            "expire_at": 1679079599.999999,
+            "exit": 0,
+            "exe": "/usr/bin/systemctl",
+            "valid_to": 1679076308.971993,
+            "traces": [
+              "trace:H6YETCDTReA:AAX3HGr5tCU:21080:suspicious_command"
+            ]
+        }
+    ]
+}
+        
